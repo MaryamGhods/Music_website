@@ -1,0 +1,21 @@
+<%- include("partials/header"); -%>
+
+<div class="compose-post">
+  <form class="" action="/compose-post" method="post">
+    <label for="post_header1">تیتر اول پست</label>
+    <input type="text" name="post_header1" value="">
+
+    <label for="post_header2">تیتر دوم پست</label>
+    <input type="text" name="post_header2" value="">
+
+    <label for="post_description1">متن پست به فارسی</label>
+    <input type="text" name="post_description1" value="">
+
+    <label for="post_description2">متن پست به انگلیسی</label>
+    <input type="text" name="post_description2" value="">
+
+    <button type="submit" name="button" class="submit-btn">ذخیره</button>
+  </form>
+</div>
+
+<%- include('partials/footer'); -%>
